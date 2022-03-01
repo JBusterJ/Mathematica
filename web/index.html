@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathematica</title>
+    <style>
+        .random_number {
+            margin: 50px;
+            font-size: 150px;
+            text-align: center;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.css">
+</head>
+
+<body>
+    <h1>Mathematica</h1>
+    <p id="ver">version v0.0.1 (dev alpha)</p>
+    <p>Enter any polynomial here!</p>
+    <p>Make sure this polynomial is entered in it's form where the equation is equal to zero (eg. ax^3+bx^2+cx+d=0, no term on RHS)</p>
+    <p>Key: <br> x^2 = x squared <br> sqrt(x) = square root of x <br> \\Sum{x=0}{100} / \\Sig{x=0}{100} = summation/sigma where x=0 to 100 <br> and more keys are coming soon</p>
+    <input type="text" name="" id="input">
+    <button id="calculate">calculate</button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.js"></script>
+<script type="text/javascript" src="../eel.js"></script>
+<script src="./script.js"></script>
+
+</html>
